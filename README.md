@@ -16,13 +16,21 @@ We found that there was little to no correlation between the different features 
 
 # Vanilla Model
 ## Activity
+For the second task, we needed to Train a model without regularisation or optimization. We will measure that using accuracy to tell us the model's performance.
+We started by defining the model: defining(creating, adding layers, and compiling our model), We ended by training the model using the fit method.
+
 
 ## Findings
+We first found out that the  
+Model Loss: 0.626  
+Model accuracy: 0.672  
 
 # L1 Regularization
 ## Activity
+I implemented a model using L1 regularization (Lasso) to address overfitting by applying a penalty to large coefficients.I also included dropout and early stopping to further enhance regularization. The model was then trained using the Adam optimizer with binary cross-entropy loss for 300 epochs.
 
 ## Findings
+After incorporating L1 regularization, overfitting was reduced, and the validation accuracy improved. Combining L1 regularization with dropout led to even more stable performance
 
 
 # L2 Regularization
